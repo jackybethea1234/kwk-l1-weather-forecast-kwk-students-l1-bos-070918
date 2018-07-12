@@ -39,7 +39,8 @@ end
 
 def convert_temp(weather)
   ftemp = weather[:temperature_farenheit] 
-  (ftemp - 32)*(5/9)
+  ctemp = (ftemp - 32)*(5/9)
+  puts ctemp.round(2)
 end 
 
 
