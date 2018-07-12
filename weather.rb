@@ -37,5 +37,9 @@ end
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
+def convert_temp(weather)
+  ftemp = weather[:temperature_farenheit] 
+  (ftemp*32)
+end 
 
 
