@@ -39,7 +39,7 @@ end
 
 def convert_temp(weather)
   ftemp = weather[:temperature_farenheit] 
-  (ftemp*32)
+  (ftemp - 32)
 end 
 
 
